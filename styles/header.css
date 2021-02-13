@@ -1,0 +1,41 @@
+
+header {
+    display: flex;
+    direction: row;
+    margin-top: 0.5%;
+    margin-left: 0.7%;
+}
+
+#title {
+    color: blue;
+    font-family: 'Montez', cursive;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#subtitle {
+    margin-top: 2px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 15px;
+}
+
+#site-logo {
+    width: 83%;
+}
+
+#sign-button {
+    margin-top:1%;
+    width: 17%;
+}
+
+#sign-button > button {
+    background-color: blue;
+    color: white;
+    font-family: 'Calibri'; font-size: medium;
+    border: 1px solid grey ;
+    padding: 7px 14px;
+    margin-left: 10px;
+    cursor: pointer;
+  
+}
