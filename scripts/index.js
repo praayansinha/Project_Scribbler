@@ -26,7 +26,3 @@ function createPost() {
 function closeCreatePost() {
     document.body.classList.remove("showCreatePost");
 }
-
-function getFocus() { 
-    document.getElementById("username").focus(); 
-} 
